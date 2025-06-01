@@ -7,7 +7,7 @@ Overview:
 The FindCorrMat function processes single-cell RNA sequencing data (from 10x Genomics or GEO datasets) to create a gene correlation network (CancerCorrMat.csv). It performs quality control, normalization, feature selection, and correlation analysis, and generates diagnostic plots and a correlation matrix.
 
 Requirements:
-- R (version 3.6 or higher recommended)
+- R Studio ((RStudio-2024.09.1-39)
 - Required R packages: Seurat, tidyverse, data.table, Hmisc, Matrix
 - These packages will install automatically if missing
 
@@ -63,7 +63,8 @@ Overview:
 This function performs topological analysis on gene correlation networks (CancerCorrMat.csv) to classify cancer types. It uses persistent homology and simplicial complexes to extract topological features from correlation matrices.
 
 Requirements:
-- Python 3.6 or higher
+- Anaconda Navigator
+- Jupyter Notebook (Version 7.0.8)
 - Required packages: pandas, numpy, matplotlib, gudhi, persim, scipy, networkx
 - These packages will install automatically if missing
 
@@ -128,11 +129,8 @@ Output Interpretation:
 5. Prostate Cancer: Positive/Negative prediction
 
 Troubleshooting:
-1. If no simplices exist at threshold:
-   - Try reducing desired_num_holes
-   - Check input matrix quality
-2. If visualizations fail:
+1. If visualizations fail:
    - Close all matplotlib windows before running
    - Update matplotlib package
-3. If installation fails:
+2. If installation fails:
    - Run pip install manually for each package
