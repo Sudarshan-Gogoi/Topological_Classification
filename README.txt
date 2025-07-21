@@ -60,7 +60,7 @@ Notes:
 # Run this Function after running FindCorrMat Function
 
 Overview:
-This function performs topological analysis on gene correlation networks (CancerCorrMat.csv) to classify cancer types. It uses persistent homology and simplicial complexes to extract topological features from correlation matrices.
+This function performs topological analysis on gene correlation networks (CancerCorrMat.csv) to categorize and predict cancer subtypes. It uses persistent homology and simplicial complexes to extract topological features from correlation matrices.
 
 Requirements:
 - Anaconda Navigator
