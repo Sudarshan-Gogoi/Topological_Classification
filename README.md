@@ -225,9 +225,6 @@ FindGeneProfile(...)
 
 * Recurring genes
 * Gene expression profiles
-
-![Gene Expression](docs/gene_expression.png)
-
 ---
 
 ## 📊 Results
