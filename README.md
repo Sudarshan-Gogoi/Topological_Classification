@@ -63,8 +63,8 @@ DEA-ready Gene Profiles
 ### 🔹 Clone Repository
 
 ```bash
-git clone https://github.com/Sudarshan-Gogoi/Topological-cancer-signatures.git
-cd topological-cancer-signatures
+git clone https://github.com/Sudarshan-Gogoi/Topological_Classification.git
+cd Topological_Classification
 ```
 
 ---
