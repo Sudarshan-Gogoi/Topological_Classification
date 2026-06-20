@@ -305,7 +305,7 @@ If you use this pipeline, please cite:
 
 ```
 Gogoi S. et al. (2026)
-Topological Cancer Signatures using scRNA-seq
+A Topology-Based Framework for Robust Cancer-Associated Gene Signature Identification from scRNA-seq Data
 ```
 
 ---
